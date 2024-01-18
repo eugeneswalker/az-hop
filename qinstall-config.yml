@@ -1,5 +1,5 @@
 # name of the cluster
-project_name: az-hop
+project_name: e4s-az-hop
 # azure location name as returned by the command : az account list-locations -o table
 location: eastus
 # Name of the resource group to create all resources
@@ -144,7 +144,7 @@ usergroups:
     description: "For users with sudo right or local admin right on nodes"
 
 # scheduler to be installed and configured (openpbs, slurm)
-queue_manager: openpbs
+queue_manager: slurm #openpbs
 
 # Specific SLURM configuration
 slurm:
